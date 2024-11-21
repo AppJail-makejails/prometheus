@@ -3,3 +3,6 @@ INCLUDE options/options.makejail
 ARG prometheus_tag=13.4
 
 FROM --entrypoint gh+AppJail-makejails/prometheus prometheus:${prometheus_tag}
+
+SYSRC prometheus_enable=YES
+SERVICE prometheus start

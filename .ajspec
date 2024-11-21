@@ -1,0 +1,16 @@
+tags: 13.4
+13.4.arch: amd64
+13.4.name: "prometheus"
+13.4.timestamp.amd64: 1732229791
+13.4.sum.amd64: 5665a1d8ed2457a629ed1766e819cbaab240236f134ccd66906588350cc776b9
+13.4.size.amd64: 77315514
+13.4.source.amd64: "http://appjail.hpc.at/prometheus/13.4-amd64-image.appjail"
+13.4.source.amd64+: "https://images.all101bsd.download/prometheus/13.4-amd64-image.appjail"
+tags+: 14.1
+14.1.arch: amd64
+14.1.name: "prometheus"
+14.1.timestamp.amd64: 1732230210
+14.1.sum.amd64: 8e06beda23f783ac1aecba0d16ec426b24fe6a49ee5cc5165be3e1e2f1ed780a
+14.1.size.amd64: 76754359
+14.1.source.amd64: "http://appjail.hpc.at/prometheus/14.1-amd64-image.appjail"
+14.1.source.amd64+: "https://images.all101bsd.download/prometheus/14.1-amd64-image.appjail"

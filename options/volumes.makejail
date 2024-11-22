@@ -1,2 +1,2 @@
 OPTION volume=prometheus-data mountpoint:/var/db/prometheus owner:478 group:478
-OPTION volume=prometheus-conf mountpoint:/usr/local/etc/prometheus.yml owner:0 group:0
+OPTION volume=prometheus-conf mountpoint:usr/local/etc/prometheus.yml owner:0 group:0

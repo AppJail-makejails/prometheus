@@ -29,7 +29,7 @@ appjail makejail \
 | Name              | Owner | Group | Perm | Type | Mountpoint                    |
 | ----------------- | ----- | ----- | ---- | ---- | ----------------------------- |
 | prometheus-data   | 478   | 478   |  -   |  -   | /var/db/prometheus            |
-| prometheus-conf   | 0     | 0     |  -   |  -   | /usr/local/etc/prometheus.yml |
+| prometheus-conf   | 0     | 0     |  -   |  -   | usr/local/etc/prometheus.yml |
 
 ## Tags
 

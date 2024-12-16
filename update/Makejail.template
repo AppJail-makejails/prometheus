@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG prometheus_tag=13.4
+ARG prometheus_tag=%%TAG1%%
 ARG prometheus_ajspec=gh+AppJail-makejails/prometheus
 
 FROM --entrypoint "${prometheus_ajspec}" prometheus:${prometheus_tag}

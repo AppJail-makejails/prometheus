@@ -12,4 +12,3 @@ tags+: 15
 15.sum.amd64: a7eb0ed711cd514516e8047d32704641bf9c971e5a7a07e2c3cb56957d1f2104
 15.size.amd64: 256249700
 15.source.amd64: "http://appjail.hpc.at/prometheus/15-amd64-image.appjail"
-maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."

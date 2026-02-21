@@ -1,14 +1,15 @@
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "prometheus"
-14.3.timestamp.amd64: 1769662274
-14.3.sum.amd64: 395e82eade8d918800b415e7eb3ffea93f7c038d53359e381ceafb4aaa884deb
-14.3.size.amd64: 84771003
+14.3.timestamp.amd64: 1771675432
+14.3.sum.amd64: 68e6571fe44725a88014b8d6b84a9d754fdeecefa9214bec1e1feba7099de5d9
+14.3.size.amd64: 85304287
 14.3.source.amd64: "http://appjail.hpc.at/prometheus/14.3-amd64-image.appjail"
 tags+: 15
 15.arch: amd64
 15.name: "prometheus"
-15.timestamp.amd64: 1769662537
-15.sum.amd64: 8f538a855c6c49a48fda4d5472792c6faea696e7b501ae150b91b4b44ed39465
-15.size.amd64: 255149021
+15.timestamp.amd64: 1771675823
+15.sum.amd64: a7eb0ed711cd514516e8047d32704641bf9c971e5a7a07e2c3cb56957d1f2104
+15.size.amd64: 256249700
 15.source.amd64: "http://appjail.hpc.at/prometheus/15-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."

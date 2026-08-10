@@ -1,0 +1,25 @@
+build:
+  variants:
+    - tag: 15.1-3
+      containerfile: Containerfile
+      aliases: ["latest"]
+      default: true
+      args:
+        PROMETHEUSVER: "3"
+        FREEBSD_RELEASE: "15.1"
+        NO_PKGCLEAN: "1"
+      cache_dirs: ["pkgcache0:/var/cache/pkg"]
+    - tag: 15.1-2
+      containerfile: Containerfile
+      args:
+        PROMETHEUSVER: "2"
+        FREEBSD_RELEASE: "15.1"
+        NO_PKGCLEAN: "1"
+      cache_dirs: ["pkgcache0:/var/cache/pkg"]
+    - tag: 15.1-1
+      containerfile: Containerfile
+      args:
+        PROMETHEUSVER: "1"
+        FREEBSD_RELEASE: "15.1"
+        NO_PKGCLEAN: "1"
+      cache_dirs: ["pkgcache0:/var/cache/pkg"]

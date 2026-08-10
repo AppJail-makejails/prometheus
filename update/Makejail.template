@@ -1,9 +1,0 @@
-INCLUDE options/options.makejail
-
-ARG prometheus_tag=%%TAG1%%
-ARG prometheus_ajspec=gh+AppJail-makejails/prometheus
-
-FROM --entrypoint "${prometheus_ajspec}" prometheus:${prometheus_tag}
-
-SYSRC prometheus_enable=YES
-SERVICE prometheus start

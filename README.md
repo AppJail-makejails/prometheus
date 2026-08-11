@@ -13,6 +13,8 @@ Prometheus' main distinguishing features as compared to other monitoring systems
 - multiple modes of graphing and dashboarding support
 - support for hierarchical and horizontal federation
 
+wikipedia.org/wiki/Prometheus_(software)
+
 <img src="https://github.com/prometheus/prometheus/raw/main/documentation/images/prometheus-logo.svg" width="30%" height="auto" alt="Prometheus logo">
 
 ## How to use this Makejail

@@ -15,7 +15,7 @@ LABEL org.opencontainers.image.title="Prometheus" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U net-mgmt/prometheus${PROMETHEUSVER}; \
+    pkg install net-mgmt/prometheus${PROMETHEUSVER}; \
     \
     if [ -z "${NO_PKGCLEAN}" ]; then \
         pkg clean -a; \
